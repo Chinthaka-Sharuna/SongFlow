@@ -1,0 +1,37 @@
+.playlist-view-banner{
+    background:linear-gradient(180deg, #872fe6, #000000);
+    overflow-y: auto;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
+.playlist-thumnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: fit-content;
+    aspect-ratio: 1/1;
+    background: linear-gradient(45deg,#2539f1, #ffffff);
+    border: none;
+    border-radius: 10px;
+    margin: 40px 40px 0px 40px;
+}
+.playlist-thumnail>img{
+    width: 50%;
+}
+.playlist-title{
+    font-size:60px;
+    font-weight: 700;
+}
+.playlist-sub-title{
+    font-size:15px;
+    font-weight: 500;
+}
+.playlist-songs-grid{
+    display:grid;
+    grid-template-columns: 50px 2fr 1fr 100px 100px 50px;
+    gap:8px;
+}

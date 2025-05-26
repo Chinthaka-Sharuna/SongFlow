@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family:Roboto,sans-serif;
+    background-color: rgb(12,12,14);
+}
+*{
+    padding:0px;
+    margin:0px;
+    color: white;
+    font-family:Roboto,sans-serif;
+}
+.header{
+    height:60px;
+    background-color: black;
+    position: fixed;
+    left:0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left-side{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-container{
+    height: 100%;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    font-size:25px;
+    margin-right: 10px;
+}
+.brand-logo{
+    width: 40px;
+    height: 40px;
+}
+.brand{
+    padding-left: 5px;
+}
+.home-icon{
+    width:35px;
+    height: 35px;
+    background-color: gray;
+    padding:5px;
+    border-radius: 50%;
+    margin: 0px 5px 0px 5px;
+}
+.browse-icon{
+    width:35px;
+    height: 35px;
+    background-color: gray;
+    padding:5px;
+    border-radius: 50%;
+}
+.search-bar-container{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search-box{
+    max-width: 350px;
+    flex:1;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+    padding:5px;
+    margin-left:3px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.header-right-side{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2px;
+    flex-shrink: 0;
+}
+.notification-icon{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    padding:6px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+}
+.profile{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 5px;
+    border-radius: 3px;
+    background-color: rgb(133, 133, 133);
+    padding: 7px;
+}
+.profile-name{
+    font-size:10px;
+    padding-top: 5px ;
+
+}
+.profile-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

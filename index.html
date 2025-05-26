@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Song Flow</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href='sidebar.css'>
+    <link rel="stylesheet" href='player.css'>
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="playlist-veiw.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left-side">
+            <div class="brand-container">
+                <img src="icon/waveform.png" class="brand-logo">
+                <p class="brand">Song Flow</p>
+            </div>
+            <img src="icon/home.png" class="home-icon">
+            <img src="icon/browse.png" class="browse-icon">
+        </div>
+        <div class="search-bar-container">
+            <input type="text" placeholder="Search here" class="search-box">
+            <img src="icon/search.png" class="search-icon">
+        </div>
+        <div class="header-right-side">
+            <img src="icon/notification.png" class="notification-icon">
+            <div class="profile">
+                <img src="icon/profile-icon.jpg" class="profile-icon">
+                <p class="profile-name">D.R.C.Sharuna</p>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="sidebar">
+            <p class="sidebar-heading">Your Library</p>
+            <div class="sidebar-playlist">
+                <div class="create-playlist">
+                    <button>
+                        <img src="icon/create.png" class="create-platlist-icon">
+                        <p>Create</p>
+                    </button>
+                    <button onclick="relordplaylist()">
+                        <img src="icon/liked.png" class="create-platlist-icon">
+                        <p>Liked Songs</p>
+                    </button>
+                    <button>
+                        <img src="icon/playlist.png" class="create-platlist-icon">
+                        <p>Best of 2023</p>
+                    </button>
+                    <button>
+                        <img src="icon/playlist.png" class="create-platlist-icon">
+                        <p>Best of 2024</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <div class="home-greeting-banner">
+                <p class="home-greeting-welcome">Welcome to Song Flow</p>
+                <p class="home-greeting-good-morning">Good morning! Sharuna</p>
+            </div>
+            <div class="home-page-palylist">
+                <div class="home-playlist">
+                    <p class="home-playlist-main-sub-title">Made for</p>
+                    <p class='home-playlist-main-title'>Chinthaka Sharuna</p>
+                    <div class="home-playlist-cards">
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="home-playlist">
+                    <p class="home-playlist-main-title">Jump in Back</p>
+                    <div class="home-playlist-cards">
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="home-playlist">
+                    <p class="home-playlist-main-title">Most Listen</p>
+                    <div class="home-playlist-cards">
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                        <button class="home-playlist-button">
+                            <img class="home-playlist-img" src="playlist-icons/Top Hits.jpg">
+                            <p class="home-playlist-title">Today's Top Hits</p>
+                            <p class="home-playlist-details">The most played songs right now</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="player">
+            <br>
+            <img src="songs/thumnail/Batanala.jpg" class="thumnail">
+            <div class="song-details">
+                <p class="song-title">Batanala</p>
+                <p class="artists">Costa</p>
+            </div>
+            <div class="player-icons">
+                <button class="repeart-button"></button>
+                <button class="previous-button"></button>
+                <button class="play-button" id="play_button" onclick="playPauseSong()"></button>
+                <button class="next-button"></button>
+                <button class="queue-button"></button>
+            </div>
+        </div>
+    </div>
+    <script src="player.js"></script>
+</body>
+</html>

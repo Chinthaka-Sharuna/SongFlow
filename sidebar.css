@@ -1,0 +1,63 @@
+.body{
+    position: fixed;
+    top:70px;
+    left:0px;
+    right:0px;
+    bottom: 5px;
+    margin-top: 10px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    column-gap: 10px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-width: 150px;
+    background-color: rgb(69, 69, 85);
+    padding:10px;
+    border-radius: 5px;
+}
+.sidebar-heading{
+    font-size: 18px;
+    Color:rgb(179, 178, 178);
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom:1px solid rgb(123, 123, 126);
+    padding-bottom:10px;
+}
+.create-playlist>button{
+    flex:1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    border:none;
+    color: white;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+.create-playlist>button>img{
+    width:30px;
+    height: 30px;
+    margin-right:5px;
+}
+.create-playlist>button:hover{
+    background-color: purple;
+    transition: 0.5s;
+    
+}
+.create-playlist>button:hover >p{
+    font-size:15px;
+    transition: 0.5s;
+}
+.create-playlist>button:hover >img{
+    width:35px;
+    height: 35px;
+    transition: 0.5s;
+}
